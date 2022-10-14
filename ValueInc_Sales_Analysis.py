@@ -25,11 +25,3 @@ data = pd.merge(data, seasons, on = 'Month')
 data = data.drop(['Day', 'Year', 'Month', 'ClientKeywords'], axis = 1)
 
 data.to_csv('ValueInc_Cleaned.csv', index=False)
-
-
-
-
-
-
-
-

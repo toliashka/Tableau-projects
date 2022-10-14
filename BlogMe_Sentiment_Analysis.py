@@ -78,23 +78,3 @@ data['Neutral Sentiment'] = pd.Series(title_neu_sentiment)
 
 #writing to excel
 data.to_excel('blogme_cleaned.xlsx', sheet_name='blogmedata', index = False)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

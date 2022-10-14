@@ -80,28 +80,3 @@ plt.show()
 
 #writing to csv
 loandata.to_csv('loan_cleaned.csv', index = True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
